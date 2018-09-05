@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to bottom left, black, #9A8D8D, rgb(209, 98, 98), rgba(179,0,0,0.8));
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    list-style-position: inside;
+}
