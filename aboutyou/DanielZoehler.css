@@ -9,3 +9,20 @@ table{
 li{
     list-style-position: inside;
 }
+h1{
+    text-shadow: 4px 4px 4px #D54848;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3em;
+}
+nav{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    background-color: rgba(187,1,36,.8);
+    border: 3px dotted black;
+    border-radius: 30px;
+}
+header{
+    background-image: url("border.jpg");
+    background-size: contain;
+    color: rgb(242, 9, 9);
+}
