@@ -1,8 +1,8 @@
 body{
     text-align: center;
     background-image: linear-gradient(to bottom left, black, #9A8D8D, rgb(209, 98, 98), rgba(179,0,0,0.8));
-    margin: 30px;
-    padding: 10px;
+    margin: 40px;
+    padding: 15px;
 }
 table{
     margin-left: auto;
@@ -23,6 +23,8 @@ nav{
     border: 3px dotted black;
     border-radius: 30px;
     color: rgb(67,62,62);
+    padding: 5px;
+    margin: 10px;
 }
 header{
     background-image: url("border.jpg");
@@ -39,16 +41,47 @@ a:hover, a:visited{
 section{
     background-color: rgba(127, 127, 127, .58);
     font-family: 'Cinzel', serif;
+    margin: 0px;
+    padding: 0px;
+    border-top: 5px solid rgb(53,53,60);
+    border-bottom: 5px solid rgb(53,53,60);
+    border-left: 5px ridge #800000;
+    border-right: 5px ridge #800000;
+    word-spacing: 5px;
+    padding: 5px;
+    margin: 0px;
 }
 aside{
     font-family: 'Orbitron', sans-serif;
     background-image: radial-gradient(rgba(127,127,127,.04),rgba(127,127,127,.49),rgba(108,3,10,.56),rgba(230,17,30,.71));
     border: 5px solid 8B8383;
     border-radius: 100%;
+    padding: 5px;
+    margin: 5px;
 }
 footer{
+    background-image: url('footer.jpg');
+    background-size: contain;
     font-family: 'Gamja Flower', cursive;
+    color: beige;
+    text-shadow: 3px 3px 3px rgb(247,230,230);
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    padding: 5px;
+    margin: 5px;
 }
 h3, h4{
     color: antiquewhite;
+}
+article{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 105%;
+    letter-spacing: 1px;
+    word-spacing: 8px;
+    color: #800000;
+    padding: 5px;
+    margin: 0px;
+}
+th{
+    color: rgb(53,53,60);
 }
