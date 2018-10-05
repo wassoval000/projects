@@ -1,0 +1,20 @@
+header{
+    font-family: 'Audiowide', cursive;
+    color: antiquewhite;
+}
+body{
+    background-image: linear-gradient(to bottom right, rgb(12,16,77),rgb(64,31,98),rgb(217,196,249));
+}
+article{
+    background: rgba(236,236,236,0.12);
+}
+div#youth{
+    font-family: 'Bangers', cursive;
+    color: #FFFB68;
+}
+a:hover{
+    color: black;
+}
+a:link{
+    color: goldenrod;
+}
