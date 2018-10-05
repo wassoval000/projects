@@ -4,6 +4,7 @@ header{
 }
 body{
     background-image: linear-gradient(to bottom right, rgb(12,16,77),rgb(64,31,98),rgb(217,196,249));
+    font-size: 1.3em;
 }
 article{
     background: rgba(236,236,236,0.12);
@@ -17,4 +18,8 @@ a:hover{
 }
 a:link{
     color: goldenrod;
+}
+nav{
+    font-family: 'VT323', monospace;
+    color: antiquewhite;
 }
