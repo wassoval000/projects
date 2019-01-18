@@ -1,0 +1,25 @@
+h2, h4{
+    text-align: center;
+}
+
+fieldset{
+    display: block;
+    border: 1px dashed;
+    width: 550px;
+    margin: auto;
+}
+
+input{
+    float: right;
+}
+
+button{
+    border-radius: 50%;
+}
+
+#output{
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(cornflowerblue, rgba(54,153,158,0.84), rgba(83,188,158,0.78), white);
+}
