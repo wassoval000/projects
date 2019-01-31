@@ -2,18 +2,18 @@ fieldset{
     width: 600px;
     margin: auto;
     text-align: center;
+    border: 10px, solid, black;
 }
 
 label{
     width: 15em;
-    float: left;
+    float: center;
     clear: left;
-    text-align: right;
     padding-right: 1em;
 }
 
 input{
-    float: left;
+    float: center;
 }
 
 #output{
@@ -22,5 +22,34 @@ input{
 }
 
 body{
-    font-size: 24px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(45,181,183,0.2);
+    font-family: 'Orbitron', sans-serif;
+}
+
+head{
+    background-color: rgba(45,181,183,0.2);
+}
+
+#f1{
+    color: ivory;
+    background-image: linear-gradient(rgba(91,7,216,0.96),rgba(191,29,219,0.96),#050405);
+}
+
+#f2{
+    background-image: radial-gradient(rgba(191,29,219,0.16),rgba(29,153,219,0.16),rgba(219,191,29,0.16),rgba(29,219,96,0.16));
+}
+
+#f3{
+    background-image: linear-gradient(to right, rgba(29,215,75,0.61), rgba(29,0,0,0));
+}
+
+#f4{
+    color: ivory;
+    background-image: linear-gradient(to bottom left, black, rgba(13,10,187,0.84),rgba(12,10,187,0.44));
+}
+
+h1{
+    font-family: 'Orbitron', sans-serif;
 }
